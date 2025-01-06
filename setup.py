@@ -16,7 +16,7 @@ def get_requirements(file_path: str) -> List[str]:
 
 setup(
     name="my_package",
-    version="0.0.1",
+    version="0.0.18",
     author="Dakeshna",
     packages=find_packages(),
     install_requires=get_requirements("requirements.txt"),
